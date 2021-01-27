@@ -1,0 +1,233 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "a1a9db7b3132eaf7a906651987809f5f",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "director-moav/talis-ms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itay-moav/TalisMS.git",
+                "reference": "239e0b4b66f52d5d6c1bcc3c315e293ac60b72f3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itay-moav/TalisMS/zipball/239e0b4b66f52d5d6c1bcc3c315e293ac60b72f3",
+                "reference": "239e0b4b66f52d5d6c1bcc3c315e293ac60b72f3",
+                "shasum": ""
+            },
+            "require": {
+                "director-moav/zimlogger": "dev-master",
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.68"
+            },
+            "default-branch": true,
+            "type": "git",
+            "autoload": {
+                "psr-0": {
+                    "Talis": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Itay Moav",
+                    "homepage": "https://cookinginbinary.blog",
+                    "role": "Superman"
+                }
+            ],
+            "description": "TalisMS Is a middleware styled framework with multiple Door(r) types to invoke it",
+            "keywords": [
+                "TalisMS",
+                "middleware",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/itay-moav/TalisMS/issues",
+                "source": "https://github.com/itay-moav/TalisMS/tree/master"
+            },
+            "time": "2021-01-27T14:48:55+00:00"
+        },
+        {
+            "name": "director-moav/zimlogger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/itay-moav/ZimLogger.git",
+                "reference": "a2eac67edee933e959bae98f728e16e421df782b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/itay-moav/ZimLogger/zipball/a2eac67edee933e959bae98f728e16e421df782b",
+                "reference": "a2eac67edee933e959bae98f728e16e421df782b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "require-dev": {
+                "phpstan/phpstan": "^0.12.68"
+            },
+            "default-branch": true,
+            "type": "git",
+            "autoload": {
+                "psr-0": {
+                    "ZimLogger": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Itay Moav",
+                    "homepage": "https://cookinginbinary.blog",
+                    "role": "Superman"
+                }
+            ],
+            "description": "Zim Logger is a simple log FW with 5 levels of verbosity",
+            "keywords": [
+                "framework",
+                "log",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/itay-moav/ZimLogger/issues",
+                "source": "https://github.com/itay-moav/ZimLogger/tree/master"
+            },
+            "time": "2021-01-25T17:05:28+00:00"
+        },
+        {
+            "name": "phpstan/phpstan",
+            "version": "0.12.69",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "8f436ea35241da33487fd0d38b4bc3e6dfe30ea8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/8f436ea35241da33487fd0d38b4bc3e6dfe30ea8",
+                "reference": "8f436ea35241da33487fd0d38b4bc3e6dfe30ea8",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1|^8.0"
+            },
+            "conflict": {
+                "phpstan/phpstan-shim": "*"
+            },
+            "bin": [
+                "phpstan",
+                "phpstan.phar"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.12-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHPStan - PHP Static Analysis Tool",
+            "support": {
+                "issues": "https://github.com/phpstan/phpstan/issues",
+                "source": "https://github.com/phpstan/phpstan/tree/0.12.69"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpstan",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2021-01-24T14:55:37+00:00"
+        },
+        {
+            "name": "twilio/sdk",
+            "version": "6.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "2f1bb71f25c5ea141d75969ef0cdb895a63fdbaa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/2f1bb71f25c5ea141d75969ef0cdb895a63fdbaa",
+                "reference": "2f1bb71f25c5ea141d75969ef0cdb895a63fdbaa",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.3 || ^7.0",
+                "phpunit/phpunit": ">=4.5",
+                "theseer/phpdox": "^0.12.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "src/Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "support": {
+                "issues": "https://github.com/twilio/twilio-php/issues",
+                "source": "https://github.com/twilio/twilio-php/tree/6.16.0"
+            },
+            "time": "2021-01-13T22:45:35+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "director-moav/zimlogger": 20,
+        "director-moav/talis-ms": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=7.4.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
